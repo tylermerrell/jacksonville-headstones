@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .prose-custom h2 {
+    @apply font-serif text-2xl font-semibold text-evergreen mt-8 mb-4;
+  }
+  .prose-custom h3 {
+    @apply font-serif text-xl font-semibold text-evergreen mt-6 mb-3;
+  }
+  .prose-custom p {
+    @apply text-granite-light leading-relaxed mb-4;
+  }
+  .prose-custom ul {
+    @apply list-disc list-inside space-y-2 mb-4 text-granite-light;
+  }
+  .prose-custom li {
+    @apply leading-relaxed;
+  }
+  .prose-custom strong {
+    @apply text-granite font-semibold;
+  }
+}
